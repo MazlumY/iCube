@@ -384,11 +384,17 @@ header.open .hamburger span:nth-child(4) {
 
 .features-section {
     background-color: #000;
-    background-image: url(../images/feature-img.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px 8vw;
+    padding: 100px 8vw;
+}
+
+.features-content {
+    display: flex;
+    align-items: center;
+}
+
+.features-content > div {
+    flex: 1 1 50%;
+    width: 50%;
 }
 
 .features-content .feature-text:nth-of-type(2) {
@@ -398,6 +404,15 @@ header.open .hamburger span:nth-child(4) {
 
 .feature-text {
     max-width: 400px;
+}
+
+.feature-img {
+    padding: 2rem 3vw;
+}
+
+.feature-img img {
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 .features-section h3 {
@@ -689,6 +704,31 @@ footer p a {
     .gallery-neon {
         min-height: 500px;
         border-bottom: 1px solid #fff;
+    }
+
+    /* Features Section */
+
+    .features-section {
+        background-color: #000;
+        padding: 80px 8vw;
+    }
+
+    .features-content {
+        flex-direction: column;
+    }
+
+    .features-content > div {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .features-content .feature-text:nth-of-type(2) {
+        margin-top: 50px;
+    }
+
+    .feature-img {
+        max-width: 500px;
+        margin-top: 2rem;
     }
 
     /* Pricing Section */

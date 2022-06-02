@@ -51,8 +51,6 @@
     const manifestTextsAnimation = () => {
         const scrollPosFromTop = manifestContent.getBoundingClientRect().top;
 
-        console.log(scrollPosFromTop);
-
         if (scrollPosFromTop < 900 && scrollPosFromTop > 700) {
             removeActiveManifestText();
             manifestTexts[0].classList.add("active");
@@ -85,7 +83,7 @@
 
     let featureObserverOptions = {
         rootMargin: "0px",
-        threshold: 0.5,
+        threshold: 0.6,
     };
 
     const animateFeatureTexts = (entries) => {
