@@ -1,5 +1,5 @@
 (() => {
-    // Slider
+    
     let icubeSlider = new Swiper(".icube-slider", {
         slidesPerView: 1,
         speed: 600,
@@ -23,9 +23,9 @@
             icubeSlider.slideTo(index);
         });
     });
-    // Slider End
+    
 
-    // NavHandler
+    
     const hamburger = document.querySelector(".hamburger");
     const header = document.querySelector("header");
 
@@ -34,9 +34,9 @@
     };
 
     hamburger.addEventListener("click", toggleMobileNav);
-    // NavHandler End
+   
 
-    // Manifest Text Animation
+
     const manifestContent = document.querySelector(".manifest-content");
     const manifestTexts = document.querySelectorAll(".manifest-content span");
     const manifestTexts2 = document.querySelector(".manifest-content div");
@@ -76,9 +76,9 @@
         manifestTextsAnimation();
     });
 
-    // Manifest Text Animation End
+    
 
-    // Feature Text Animation
+   
     const featureTexts = document.querySelectorAll(".feature-text");
 
     let featureObserverOptions = {
@@ -103,5 +103,5 @@
         featureObserver.observe(text);
     });
 
-    // Feature Text Animation End
+  
 })();

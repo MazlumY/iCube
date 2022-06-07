@@ -1,4 +1,4 @@
-/* General Styles */
+
 
 @font-face {
     font-family: "SF Pro Display";
@@ -61,7 +61,7 @@ section {
     border-radius: 30px;
 }
 
-/* Typography */
+
 
 h1 {
     font-size: 2rem;
@@ -89,7 +89,7 @@ p {
     letter-spacing: 1px;
 }
 
-/* Navigation Bar Styles */
+
 
 header {
     position: fixed;
@@ -133,7 +133,7 @@ nav {
     color: #68aaff;
 }
 
-/* Hamburger Styles */
+
 
 .hamburger {
     display: none;
@@ -195,7 +195,7 @@ header.open .hamburger span:nth-child(4) {
     left: 50%;
 }
 
-/* Hero Section */
+
 
 .hero-section {
     position: sticky;
@@ -218,7 +218,7 @@ header.open .hamburger span:nth-child(4) {
     margin: 5rem auto 0;
 }
 
-/* Manifest Section */
+
 
 .manifest-section {
     background: url(../images/manifest-img.png) center no-repeat;
@@ -265,7 +265,7 @@ header.open .hamburger span:nth-child(4) {
     background-color: #fff;
 }
 
-/* Gallery Section */
+
 
 .gallery-section .gallery-content:nth-child(2n) .gallery-icube {
     order: 1;
@@ -380,7 +380,7 @@ header.open .hamburger span:nth-child(4) {
     opacity: 1;
 }
 
-/* Features Section */
+
 
 .features-section {
     background-color: #000;
@@ -452,7 +452,7 @@ header.open .hamburger span:nth-child(4) {
     opacity: 1;
 }
 
-/* Pricing Section */
+
 
 .pricing-section {
     padding: 150px 0;
@@ -503,7 +503,7 @@ header.open .hamburger span:nth-child(4) {
     background-color: #0071e3;
 }
 
-/* Footer Styles */
+
 
 footer {
     position: relative;
@@ -598,10 +598,10 @@ footer p a {
     border-right: 1px solid #d2d2d7;
 }
 
-/* Media Queries */
+
 
 @media (max-width: 992px) {
-    /* Typography */
+    
 
     h1 {
         font-size: 2rem;
@@ -623,14 +623,14 @@ footer p a {
         font-size: 1.25rem;
     }
 
-    /* Hero Section */
+    
 
     .hero-img {
         max-width: 300px;
         margin: 3rem auto 0;
     }
 
-    /* Manifest Section */
+    
 
     .manifest-content span {
         font-size: 2.5rem;
@@ -638,7 +638,7 @@ footer p a {
 }
 
 @media (max-width: 840px) {
-    /* Navigation Bar Styles */
+    
 
     .hamburger {
         display: block;
@@ -671,7 +671,7 @@ footer p a {
         font-size: 1.5rem;
     }
 
-    /* Gallery Section */
+    
 
     .gallery-section .gallery-content:nth-child(2n) .gallery-icube {
         order: unset;
@@ -706,7 +706,7 @@ footer p a {
         border-bottom: 1px solid #fff;
     }
 
-    /* Features Section */
+    
 
     .features-section {
         background-color: #000;
@@ -731,7 +731,7 @@ footer p a {
         margin-top: 2rem;
     }
 
-    /* Pricing Section */
+   
 
     .pricing-content {
         align-items: center;
@@ -746,7 +746,7 @@ footer p a {
 }
 
 @media (max-width: 576px) {
-    /* Manifest Section */
+    
 
     .manifest-content span {
         font-size: 2rem;
@@ -756,13 +756,13 @@ footer p a {
         display: none;
     }
 
-    /* Feature Section */
+   
 
     .feature-section {
         padding: 60px 1rem;
     }
 
-    /* Gallery Section */
+    
 
     .icube-switch {
         gap: 1rem;
@@ -772,7 +772,7 @@ footer p a {
         min-width: 280px;
     }
 
-    /* Pricing Section */
+    
 
     .pricing-section {
         padding: 60px 1rem;
@@ -782,7 +782,7 @@ footer p a {
         min-width: 0;
     }
 
-    /* Footer  */
+    
 
     .footer-foot {
         flex-direction: column;
